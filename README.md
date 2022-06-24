@@ -1,4 +1,4 @@
-# Svelte.js + Flask
+# Svelte.js + Flask (THIS IS NOT ACTUALLY VITE YET, ITS JUST ROLLUP FOR NOW)
 
 A super simple example of using Flask to serve a Svelte app and use it as a backend server.
 
