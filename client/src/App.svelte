@@ -1,10 +1,8 @@
 <script>
   let rand = -1;
 
-  function getRand() {
-    fetch("./rand")
-      .then(d => d.text())
-      .then(d => (rand = d));
+  async function getRand() {
+    rand = await (await fetch("./rand")).text()
   }
 </script>
 

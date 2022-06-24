@@ -15,8 +15,8 @@ def home(path):
 
 
 @app.route("/rand")
-def hello():
-    return str(random.randint(0, 100))
+def gen_rand():
+    return str(random.randint(0, 1000))
 
 
 if __name__ == "__main__":
