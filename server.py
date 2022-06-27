@@ -3,6 +3,10 @@ import random
 
 app = Flask(__name__)
 
+config = {
+    "dldir": "D:\\music\\#deezloader downloads"
+}
+
 # Path for our main Svelte page
 @app.route("/")
 def base():
@@ -17,6 +21,11 @@ def home(path):
 @app.route("/rand")
 def gen_rand():
     return str(random.randint(0, 1000))
+
+@app.route("/dldir")
+def get_dldir():
+    return config["dldir"]
+
 
 
 if __name__ == "__main__":

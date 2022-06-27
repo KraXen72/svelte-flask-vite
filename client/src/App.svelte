@@ -1,4 +1,6 @@
 <script>
+  import DestPicker from './components/DestPicker.svelte'
+
   let rand = -1;
 
   async function getRand() {
@@ -6,5 +8,6 @@
   }
 </script>
 
-<h1>Your number is {rand}!</h1>
+<h1> youtube song downloader</h1>
+<DestPicker/>
 <button on:click={getRand}>Get a random number</button>
