@@ -1,6 +1,7 @@
 # Svelte.js + Flask
 
 A super simple example of using Flask to serve a Svelte app and use it as a backend server.
+doesen't actually use vite lol because i couldn't figure out how to set it up...
 
 Run the following for development:
 
